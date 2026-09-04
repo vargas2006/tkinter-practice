@@ -18,7 +18,7 @@ entry = Entry(window,
             font=('Arial', 16),
             fg="green",
             bg="black",
-            show="*", # hide the input
+            show="*", # hide the input with the value in show
             )
 
 entry.insert(0, 'Enter username') # default text on the entry box
