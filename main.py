@@ -8,7 +8,7 @@ window = Tk() # make a window
 window.geometry("420x420") # adjust the size of the window
 window.title("tkinter practice") # change title of the window
 
-icon = PhotoImage(file='logo.png')
+icon = PhotoImage(file='images/logo.png') # add image to the window
 window.iconphoto(True,icon) # change the icon of the window
 window.config(background="black") # change the background color of the window
 

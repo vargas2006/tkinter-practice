@@ -4,7 +4,7 @@ from tkinter import *
 
 window = Tk()
 
-icon = PhotoImage(file='picturelogo.png')
+icon = PhotoImage(file='images/picturelogo.png') # add image to the window
 
 label = Label(window,   # design the label / add label
             text="Hello World", 
